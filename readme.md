@@ -1,18 +1,18 @@
-###Introduction
+#Introduction
 The code uses an algorithm that was pulled from here: https://tartarus.org/martin/PorterStemmer/csharp3.txt which is what the class
 PorterStemmer is fully made from. The code will pass in a stopword.txt file and another .txt file which will get analyzed. The code 
 removes all stopwords and punctuation and then normalizes the text to its root stem (i.e. accompanied -> accompani).
 
-###Requirements
+#Requirements
 This is built using .NET core 3.1
 
-###Getting it to Run
+#Getting it to Run
 The text files to test it are contained in the project itself in the folder "txtFiles". However, if you want to analyze 
 a different file or set of files you will need to make a reference to it(them) in the parameters.json as well as pass 
 the required variables in to the GetFilePathFromConfig() method into the constructor for the code which mutates the words 
 in the .txt files.
 
-###Output Examples
+#Output Examples
 
 For *Alice In Wonderland* the output is:
 said: 462
