@@ -1,0 +1,19 @@
+﻿{
+ "NumOfTopResults": "20",
+ "Env":{
+  "Project":{
+   "Text1":{
+    "FilePath": {
+     "StopWords": "\\txtFiles\\stopwords.txt",
+     "AnalysisText": "\\txtFiles\\Text1.txt"
+    }
+   },
+  "Text2":{    
+   "FilePath": {
+    "StopWords": "\\txtFiles\\stopwords.txt",
+    "AnalysisText": "\\txtFiles\\Text2.txt"
+    }
+   }  
+  }   
+ }
+}
